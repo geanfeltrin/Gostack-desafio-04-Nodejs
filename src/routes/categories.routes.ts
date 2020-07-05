@@ -20,7 +20,7 @@ categoriesRouter.delete('/:id', async (request, response) => {
 
   await deleteCategoryService.execute({ id });
 
-  return response.json();
+  return response.status(204).send();
 });
 
 export default categoriesRouter;
