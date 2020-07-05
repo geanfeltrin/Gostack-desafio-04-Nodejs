@@ -27,12 +27,13 @@ export default class createTransaction1593956809139
           },
           {
             name: 'value',
-            type: 'number',
+            type: 'float',
             isNullable: false,
           },
           {
             name: 'type',
-            type: 'varchar',
+            type: 'enum',
+            enum: ['income', 'outcome'],
             isNullable: false,
           },
           {
