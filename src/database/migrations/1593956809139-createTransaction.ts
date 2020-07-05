@@ -22,7 +22,7 @@ export default class createTransaction1593956809139
           },
           {
             name: 'title',
-            type: 'string',
+            type: 'varchar',
             isNullable: false,
           },
           {
@@ -32,7 +32,7 @@ export default class createTransaction1593956809139
           },
           {
             name: 'type',
-            type: 'string',
+            type: 'varchar',
             isNullable: false,
           },
           {
